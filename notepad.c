@@ -15,6 +15,8 @@ int main(int argc, char *argv[])
 
     gtk_builder_connect_signals(builder, NULL);
     
+    // Quit the app when the window is closed.
+    g_signal_connect(window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
 
 
     g_object_unref(builder);
