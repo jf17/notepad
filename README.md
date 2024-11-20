@@ -1,4 +1,5 @@
 # Simple Text Editor
+GTK3 and Glade
 
 ## build :
 
