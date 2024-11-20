@@ -80,30 +80,7 @@ void on_menu_exit_activate(GtkMenuItem *menuitem, gpointer user_data) {
 
 int main(int argc, char *argv[])
 {
-    // GtkBuilder      *builder; 
-    // GtkWidget       *window;
-
-    // gtk_init(&argc, &argv);
-
-    // builder = gtk_builder_new();
-    // gtk_builder_add_from_file (builder, "notepad.glade", NULL);
-
-    // window = GTK_WIDGET(gtk_builder_get_object(builder, "window_main"));
-
-    // gtk_builder_connect_signals(builder, NULL);
-    
-    // // Quit the app when the window is closed.
-    // g_signal_connect(window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
-
-
-    // g_object_unref(builder);
-
-    // gtk_widget_show(window);                
-    // gtk_main();
-
-    // return 0;
-
-        GtkBuilder *builder;
+    GtkBuilder *builder;
     GtkWidget *window;
     GError *error = NULL;
 
