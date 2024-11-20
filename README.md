@@ -1,5 +1,4 @@
-# notepad
-Notepad
+# Simple Text Editor
 
 ## build :
 
