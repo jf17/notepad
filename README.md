@@ -11,5 +11,5 @@ clang `pkg-config --cflags gtk+-3.0` -o jf17-text-editor main.c `pkg-config --li
 
 ## run :
 ```bash
-./notepad
+./jf17-text-editor
 ```
