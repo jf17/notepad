@@ -7,10 +7,10 @@ GTK3 and Glade
 sudo apt install clang libgtk-3-dev -y
 ```
 ```bash
-clang `pkg-config --cflags gtk+-3.0` -o jf17-text-editor main.c `pkg-config --libs gtk+-3.0`
+clang `pkg-config --cflags gtk+-3.0` -o simple-text-editor main.c `pkg-config --libs gtk+-3.0`
 ```
 
 ## run :
 ```bash
-./jf17-text-editor
+./simple-text-editor
 ```
